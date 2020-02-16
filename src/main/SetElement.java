@@ -15,7 +15,6 @@ public class SetElement {
         list_Strings.add(0,"Pink");
         list_Strings.add(5,"Yellow");
         System.out.println(list_Strings);
-        System.out.println(list_Strings);
         list_Strings.set(2,"Yellow");
         System.out.println(list_Strings);
     }
