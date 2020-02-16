@@ -1,6 +1,8 @@
 package main;
+
 import java.util.*;
-public class LeetCodeDynamicProgram {
+
+public class CoinChangeProgram {
     public static void main(String[] args) {
         System.out.println(change(12,new int[]{1,2,5}));
     }
@@ -12,8 +14,10 @@ public class LeetCodeDynamicProgram {
             for(int i=1;i<combinations.length;i++){
                 if(i>=coin){
                     combinations[i]+=combinations[i-coin];
+                    printAmount(combinations);
                 }
             }
+            System.out.println();
         }
         return combinations[amount];
     }
