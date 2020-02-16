@@ -11,10 +11,10 @@ public class GetLastFirstOccurrence {
         list_Strings.add("White");
         list_Strings.add("Black");
         list_Strings.add("Pink");
-        System.out.println("Original List:");
+        System.out.println("Original List:"+list_Strings);
         Object first_element=list_Strings.getFirst();
-        System.out.println("The linked List:"+first_element);
+        System.out.println("The first linked List:"+first_element);
         Object last_element=list_Strings.getLast();
-        System.out.println("The linked List:"+last_element);
+        System.out.println("The last linked List:"+last_element);
     }
 }
