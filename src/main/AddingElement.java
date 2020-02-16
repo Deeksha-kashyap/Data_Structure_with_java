@@ -8,5 +8,8 @@ public class AddingElement {
      list_Strings.add("Orange");
      list_Strings.add("White");
      list_Strings.add("Black");
+     System.out.println(list_Strings);
+     list_Strings.add(0,"Pink");
+     list_Strings.add(5,"Yellow");
     }
 }
