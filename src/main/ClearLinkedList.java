@@ -1,7 +1,7 @@
 package main;
 
 import java.util.*;
-public class RemoveFirstLastLinkedList {
+public class ClearLinkedList {
     public static void main(String[] args) {
         LinkedList<String> list_Strings=new LinkedList<String>();
         list_Strings.add("Red");
@@ -11,10 +11,7 @@ public class RemoveFirstLastLinkedList {
         list_Strings.add("Black");
         list_Strings.add("Pink");
         System.out.println("Original List:"+list_Strings);
-        Object first=list_Strings.removeFirst();
-        System.out.println("The linked List:"+first);
-        Object last=list_Strings.removeLast();
-        System.out.println("The linked List:"+last);
-        System.out.println("Original List:"+list_Strings);
+        list_Strings.clear();
+        System.out.println("The linked List:"+list_Strings);
     }
 }
