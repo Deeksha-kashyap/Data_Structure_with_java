@@ -17,5 +17,7 @@ public class GetFirstElement {
         System.out.println(list_Strings);
         String element=list_Strings.get(0);
         System.out.println("First element:"+element);
+        element=list_Strings.get(2);
+        System.out.println("Third element:"+element);
     }
 }
