@@ -10,7 +10,7 @@ public class SwapElement {
         list_Strings.add("Orange");
         list_Strings.add("White");
         list_Strings.add("Black");
-        System.out.println("Arraylist before swap:");
+        System.out.println("Array list before swap:");
         for(String a:list_Strings)
         {
             System.out.println(a);
