@@ -1,8 +1,7 @@
 package main;
 
 import java.util.*;
-
-public class InsertFirstLast {
+public class FrontLinkedList {
     public static void main(String[] args) {
         LinkedList<String> list_Strings=new LinkedList<String>();
         list_Strings.add("Red");
@@ -12,8 +11,8 @@ public class InsertFirstLast {
         list_Strings.add("Black");
         list_Strings.add("Pink");
         System.out.println("Original List:"+list_Strings);
-        list_Strings.addFirst("white");
-        list_Strings.addLast("pink");
+        //list_Strings.addFirst("white");
+        list_Strings.offerFirst("pink");
         System.out.println("The linked List:"+list_Strings);
     }
 }
