@@ -11,5 +11,10 @@ public class AddingElement {
      System.out.println(list_Strings);
      list_Strings.add(0,"Pink");
      list_Strings.add(5,"Yellow");
+     System.out.println(list_Strings);
+     for(String element:list_Strings)
+     {
+      System.out.println(element);
+     }
     }
 }
