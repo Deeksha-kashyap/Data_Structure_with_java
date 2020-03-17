@@ -24,10 +24,10 @@ public class SalesGraph
                 for(int j=0;j<n;j++)
                 {
                     if( arr[j] >=i)
-                        System.out.printf("%s","| ");
+                        System.out.printf("%s ","|");
                     else System.out.printf("%s","  ");
                 }
-                System.out.println(" ");
+                System.out.println("  ");
             }
         }
     }
